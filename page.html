@@ -1,0 +1,28 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>svc文件上传</title>
+<style type="text/css">
+        .fileDiv{
+	    margin:50px auto 0px auto;
+        text-align:center;
+     }
+     h1{
+	    text-align:center;
+     }
+</style>
+</head>
+<body>
+<form action="test2.php" method="post" enctype="multipart/form-data">
+<h1>csv文件上传</h1>
+<div class="fileDiv">
+	请选择需要上传的文件：
+	<input type="file" name="myFile"/>
+	<input type="submit" value="上传" />
+	<a href="views.php">查看已上传文件数据</a>
+</div>
+</form>
+</body>
+</html>
